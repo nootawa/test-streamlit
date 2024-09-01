@@ -1,8 +1,8 @@
 import streamlit as st
-import numpy as np
-import pandas as pd
-from PIL import Image
-import time
+# import numpy as np
+# import pandas as pd
+# from PIL import Image
+# import time
 
 st.title('Streamlit 超入門')
 st.write('Show Progress bar ')
@@ -15,7 +15,7 @@ for i in range(100):
     bar.progress(i+1)
     time.sleep(0.1)
 
-'Done!!!!'
+'Done!!!'
 
 #st.write('DataFrame')
 
